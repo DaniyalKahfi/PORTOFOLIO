@@ -1,0 +1,11 @@
+1. NoSQL adalah sebuah pendekatan dalam manajemen database yang tidak mengikuti model relasional seperti yang ada pada RDBMS. NoSQL sering digunakan untuk aplikasi yang membutuhkan skala besar, fleksibilitas schema, dan kinerja tinggi.
+
+2 . NoSQL sebaiknya dipertimbangkan saat data yang akan disimpan memiliki struktur yang kompleks dan berubah-ubah, membutuhkan skala yang besar dan distribusi, serta ketika kecepatan akses data menjadi prioritas utama. RDBMS lebih cocok digunakan untuk aplikasi yang membutuhkan transaksi ACID, data dengan relasi yang kompleks, dan kebutuhan untuk menjaga integritas data yang tinggi.
+
+3. Contoh tools/platform NoSQL selain ElasticSearch adalah MongoDB dan Cassandra. MongoDB memiliki keunggulan dalam skalabilitas dan fleksibilitas schema, sedangkan Cassandra diketahui memiliki kinerja tinggi dan toleransi terhadap kegagalan.
+
+4. Airflow adalah platform open-source yang digunakan untuk mengatur, mengelola, dan menjadwalkan alur kerja (workflows) dalam lingkungan pengolahan data. Airflow memungkinkan pengguna untuk mendefinisikan alur kerja mereka sebagai kode, serta menyediakan grafis untuk memonitor dan mengelola alur kerja tersebut.
+
+5. Great Expectations adalah library open-source yang digunakan untuk mengelola dan memvalidasi kualitas data dalam suatu sistem analisis data. Dengan Great Expectations, pengguna dapat mendefinisikan ekspektasi (expectations) terhadap data mereka, seperti kebenaran format, keberadaan nilai, atau korelasi antar kolom, dan melakukan validasi secara otomatis.
+
+6. Batch Processing adalah metode pengolahan data di mana data diproses secara berkelompok (batch) dengan mengumpulkan, memproses, dan menyimpan data dalam interval waktu tertentu. Contoh kasus penggunaan batch processing adalah pengolahan laporan keuangan bulanan, pemrosesan data historis, atau analisis data harian. Tools yang digunakan dalam batch processing antara lain Apache Hadoop, Apache Spark, dan Apache Flink. Metode ini sering digunakan dalam sistem yang membutuhkan analisis data besar-besaran dan tidak memerlukan respons cepat.
