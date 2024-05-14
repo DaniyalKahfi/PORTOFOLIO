@@ -1,2 +1,0 @@
-Deployment = https://huggingface.co/spaces/DaniyalKahfi/NLP_IMDB_REVIEW
-Dataset = https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis
