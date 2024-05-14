@@ -1,2 +1,0 @@
-Deployment = https://huggingface.co/spaces/DaniyalKahfi/Used_Car_in_Saudi_Arabia?logs=container
-Dataset = https://www.kaggle.com/datasets/turkibintalib/saudi-arabia-used-cars-dataset
