@@ -1,0 +1,44 @@
+DDL :
+
+CREATE TABLE table_m3()
+
+
+ALTER TABLE table_m3
+ADD COLUMN Age INT,
+ADD COLUMN Attrition VARCHAR(255),
+ADD COLUMN BusinessTravel VARCHAR(255),
+ADD COLUMN DailyRate INT,
+ADD COLUMN Department VARCHAR(255),
+ADD COLUMN DistanceFromHome INT,
+ADD COLUMN Education INT,
+ADD COLUMN EducationField VARCHAR(255),
+ADD COLUMN EmployeeCount INT,
+ADD COLUMN EmployeeNumber INT,
+ADD COLUMN EnvironmentSatisfaction INT,
+ADD COLUMN Gender VARCHAR(255),
+ADD COLUMN HourlyRate INT,
+ADD COLUMN JobInvolvement INT,
+ADD COLUMN JobLevel INT,
+ADD COLUMN JobRole VARCHAR(255),
+ADD COLUMN JobSatisfaction INT,
+ADD COLUMN MaritalStatus VARCHAR(255),
+ADD COLUMN MonthlyIncome INT,
+ADD COLUMN MonthlyRate INT,
+ADD COLUMN NumCompaniesWorked INT,
+ADD COLUMN Over18 VARCHAR(255),
+ADD COLUMN OverTime VARCHAR(255),
+ADD COLUMN PercentSalaryHike INT,
+ADD COLUMN PerformanceRating INT,
+ADD COLUMN RelationshipSatisfaction INT,
+ADD COLUMN StandardHours INT,
+ADD COLUMN StockOptionLevel INT,
+ADD COLUMN TotalWorkingYears INT,
+ADD COLUMN TrainingTimesLastYear INT,
+ADD COLUMN WorkLifeBalance INT,
+ADD COLUMN YearsAtCompany INT,
+ADD COLUMN YearsInCurrentRole INT,
+ADD COLUMN YearsSinceLastPromotion INT,
+ADD COLUMN YearsWithCurrManager INT;
+
+
+DML:\copy table_m3 FROM 'C:/Users/User/github-classroom/FTDS-assignment-bay/p2-ftds029-rmt-m3-gedealdi28/P2M3_GedeAldi_data_raw.csv' DELIMITER ',' CSV HEADER;
